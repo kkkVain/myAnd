@@ -14,7 +14,10 @@ import android.widget.Toast;
 
 /**
  * Created by dell on 2016/11/17.
+ chage it obviously   why not show
  */
+
+
 public class addClass extends AppCompatActivity {
     //定义成员变量
     myDB myMemoDB = new myDB(this);
@@ -38,11 +41,15 @@ public class addClass extends AppCompatActivity {
 
 
 
-        String[] columns = new String[] {"name", "birth","gift"};
+     /*   String[] columns = new String[] {"name", "birth","gift"};
         String selection = "name=?";
-        String[] selectionArgs = new String[]{"烧萌"};
-        Cursor t = db.query(TABLE_NAME,columns,selection,selectionArgs,null,null,null);
-        Cursor se=db.rawQuery("select * from Memo",null);
+        String[] selectionArgs = new String[]{"烧萌"};*/
+
+
+     //   Cursor t = db.query(TABLE_NAME,columns,selection,selectionArgs,null,null,null);
+    //    Cursor se=db.rawQuery("select * from Memo",null);
+
+
     //    if(se==null)
     //        Toast.makeText(addClass.this, " wer ", Toast.LENGTH_SHORT).show();
     //    else
