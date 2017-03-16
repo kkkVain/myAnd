@@ -25,6 +25,9 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
+    /*** 终于开始变了 **/
+
+
     //定义成员变量
     myDB myMemoDB = new myDB(this);
     private  SimpleAdapter simpleAdapter;
